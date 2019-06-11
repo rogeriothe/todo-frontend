@@ -1,9 +1,14 @@
 import React from 'react'
+import PageHeader from '../template/pageHeader'
 
 export default props => (
     <div>
-        <h1>
-            Sobre
-        </h1>
+        <PageHeader name='Sobre' small='Nós'></PageHeader>
+        <h2>Missão</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget quam vitae nunc venenatis tempor. Donec mollis sem leo, sit amet maximus mi scelerisque ut. Nulla sit amet vestibulum libero. Fusce varius felis id quam commodo, at tincidunt metus fermentum. Vestibulum in sem sagittis quam finibus feugiat id a felis. Phasellus venenatis leo lorem, ac varius nibh pretium quis. Sed id aliquet urna. Vestibulum ac felis ut neque lobortis pretium. Suspendisse vitae ipsum accumsan, aliquet orci id, pharetra nisl.</p>
+<p>Aenean mi tortor, tincidunt ac dui vitae, facilisis egestas risus. Ut consectetur interdum eros et scelerisque. Fusce eros lorem, vulputate tincidunt fermentum mattis, aliquam eget arcu. Aenean ultricies risus turpis, quis feugiat est malesuada sed. Quisque imperdiet, leo sed tincidunt aliquet, ex purus tincidunt dui, eu accumsan neque mi at tellus. Pellentesque eget ipsum eu mi feugiat feugiat. Integer consectetur dapibus libero, accumsan accumsan mi blandit vel. Sed id pellentesque justo, vitae bibendum leo.</p>
+<p>Nullam ultricies porta urna ac fringilla. Proin vel laoreet libero, sed viverra nibh. Fusce suscipit id dolor quis laoreet. Suspendisse at risus dapibus, tempor dolor nec, malesuada nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam lacus, dapibus in consequat vitae, malesuada et turpis. Donec vel pulvinar felis. Etiam at ultrices enim. Phasellus vehicula quam sit amet felis consectetur, nec tempor lectus viverra. Nunc et arcu nec nunc pellentesque semper. Donec posuere elit quis risus consectetur, sit amet dapibus magna placerat. Maecenas id diam sed lorem interdum bibendum nec nec odio.</p>
+<p>Praesent nec egestas nulla, non lobortis justo. Vivamus porta a tellus sit amet pellentesque. Aliquam vitae est diam. Sed bibendum rutrum est sit amet ultrices. Sed congue lacus ut orci dictum, lobortis mollis metus dapibus. Nulla pharetra malesuada dui vitae viverra. Donec molestie urna vitae suscipit vestibulum. Aenean euismod ac massa et ultricies. Duis vehicula finibus finibus. Etiam consectetur justo non felis ultricies gravida.</p>
+<p>Praesent commodo magna erat, non ultrices arcu maximus vitae. Integer eu interdum libero. Pellentesque auctor laoreet eros id ultricies. Cras a erat magna. Suspendisse fermentum dolor eu massa finibus feugiat. Aenean eget purus lacinia, posuere dolor ac, tempus augue. Donec id arcu non dolor tristique lobortis. Quisque convallis magna tortor, id viverra orci dapibus sit amet. Fusce euismod, mauris ut euismod laoreet, nunc nisl sagittis nisl, ut lacinia magna dolor a elit. Maecenas maximus erat vel lacus mattis eleifend. Praesent tincidunt lacus at lorem posuere ornare. Curabitur sit amet ante non arcu mollis pharetra. Vestibulum in turpis quis tortor interdum ultricies non nec massa.</p>
     </div>
 )
